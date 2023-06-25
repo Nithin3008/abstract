@@ -1,0 +1,129 @@
+body
+{
+    font-family: 'GT America Standard', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --bg-color: #000000;
+    --font-clr:#fff;
+    --prim-clr:#dadbf1;
+}
+.navBar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    color: var(--font-clr);
+    padding: 18px 10px;
+}
+.navBar__submit
+{
+    background-color: var(--bg-color);
+    font-size: 25px;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: var(--font-clr);
+    /* padding: 10px 10px; */
+}
+.navBar__signin
+{
+    background-color: #4c5fd5;
+    color: #dadbf1;
+    font-size: 25px;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.heroSec
+{
+    background-color:var(--prim-clr) ;
+    padding: 95px 15px;
+}
+.heroSec div
+{
+    text-align: center;
+}
+.heroSec__heading
+{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.heroSec__search input
+{
+    width: 800px;
+    height: 50px;
+    font-size: 20px;
+    outline: 0;
+}
+img
+{
+    height: 110px;
+    margin-top: 30px;
+    padding: 0 15px;
+}
+.middleSec
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    
+    width: fit-content;
+    margin: auto;
+    margin-top: 120px;
+}
+.middleSec__data
+{
+    display: flex;
+    width: 500px;
+    align-items: start;
+    padding: 15px 15px;
+    margin: 20px 0;
+    /* justify-content: center; */
+}
+.middleSec__data__heading{
+    font-size: 22px;
+    font-weight: 700;
+}
+.middleSec__data__content
+{
+    font-size: 22px;
+    font-weight: 450;
+}
+.middleSec__data__link
+{
+    color: #4c5fd5;
+    font-size: 18px;
+}
+footer
+{
+    background-color: var(--bg-color);
+    color: var(--font-clr);
+    margin-top: 50px;
+    padding: 15px 20px;
+}
+.footerSec
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+.footerSec h4
+{
+    font-size: 20px;
+}
+.footerSec__data
+{
+    margin-top: 220px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.footerSec__data> *
+{
+    padding: 0;
+    margin: 0;
+}
